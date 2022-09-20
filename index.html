@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>title</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <label for="fname">FIRST NAME</label>
+      <input type="text" id="fname" name="fname" />
+      <label for="lname">LAST NAME</label>
+      <input type="text" id="lname" name="lname" />
+      <label for="address">ADDRESS</label>
+      <input type="text" id="address" name="address" />
+      <label for="pincode">PINCODE</label>
+      <input type="number" id="pincode" name="pincode" />
+      <label for="gender">GENDER</label>
+      <input type="text" id="gender" name="gender" />
+      <label for="food">FOOD</label>
+      <input type="text" id="food" name="food" />
+      <label for="state">STATE</label>
+      <input type="text" id="state" name="state" />
+      <label for="country">COUNTRY</label>
+      <input type="text" id="country" name="country" />
+
+      <input type="button" id="button" value="Add" onclick="AddRow()" />
+    </div>
+
+    <table id="show">
+      <tr>
+        <th>FIRSTNAME</th>
+        <th>LASTNAME</th>
+        <th>ADDRESS</th>
+        <th>PINCODE</th>
+        <th>GENDER</th>
+        <th>FOOD</th>
+        <th>STATE</th>
+        <th>COUNTRY</th>
+      </tr>
+    </table>
+  </body>
+</html>
